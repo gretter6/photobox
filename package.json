@@ -1,0 +1,17 @@
+{
+  "name": "photobox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "esbuild lib/index.js --bundle --outfile=dist/app.bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.18.1"
+  }
+}
